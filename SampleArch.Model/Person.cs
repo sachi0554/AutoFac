@@ -25,7 +25,7 @@ namespace SampleArch.Model
         public string Address { get; set; }
 
         [Required]
-        [MaxLength(50)]
+        [MaxLength(60)]
         public string State { get; set; }
 
         [Display(Name="Country")]
