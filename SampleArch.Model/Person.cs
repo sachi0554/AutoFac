@@ -21,7 +21,7 @@ namespace SampleArch.Model
         public string Phone { get; set; }
 
         [Required]
-        [MaxLength(100)]
+        [MaxLength(200)]
         public string Address { get; set; }
 
         [Required]
